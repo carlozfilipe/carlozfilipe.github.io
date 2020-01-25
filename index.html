@@ -1,84 +1,84 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<title>Página pessoal | Carlos Filipe</title>
-	<meta charset="utf-8">
-	<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
-        <script src="sketch.js"></script>
+    <title>Carlos Filiope (thecarlosfilipe)</title>
+    <meta charset="utf-8">
+    <!-- <link href="https://micro.blog/mattl" rel="me" /> -->
+    <meta name="google-site-verification" content="TCnXhjIqe3C2jAndUQX1U79373kkRjZTgI0iUC7nsT4">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+        body {
+            margin: 40px auto;
+            font-family: sans-serif;
+            max-width: 650px;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #444;
+            padding: 0 10px
+        }
+
+        h1,
+        h2,
+        h3 {
+            line-height: 1.2
+        }
+
+        .h-entry a {
+            text-decoration: none;
+        }
+
+        aside {
+            font-size: 90%;
+            border: 1px solid whitesmoke;
+            padding: 3em;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #444;
+                color: #e4e4e4;
+            }
+
+            a {
+                color: #e39777;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Carlos Filipe</h1>
 
-    <script>
-        let system;
+    <p>I'm Carlos Filipe, an artist/writer/director living in São Luís,
+        Maranhão,Brazil. <br />I am an unconditional lover of Science and I strongly believe that it is only through it
+        that we can progress and become better and more sensible humans.</p>
 
-        function setup() {
-            createCanvas(1350, 600);
-            system = new ParticleSystem(createVector(width / 2, 50));
-        }
+    <p><a href="more.html">More about me here</a>.</p>
 
-        function draw() {
-            background(51);
-            system.addParticle();
-            system.run();
-        }
+    <p>Send me an email &rarr; <a href="mailto:thecarlosfilipe@gmail.com">thecarlosfilipe@gmail.com</a> <small>
+        
+        <!-- <a href="https://keybase.io/mattl/key.asc"><sup>GPG</sup></a></small></p> -->
 
-        // A simple Particle class
-        let Particle = function (position) {
-            this.acceleration = createVector(0, 0.05);
-            this.velocity = createVector(random(-1, 1), random(-1, 0));
-            this.position = position.copy();
-            this.lifespan = 255;
-        };
+    <p>Follow me on Twitter &rarr; <a href="https://twitter.com/thecarlosfilipe">@thecarlosfilipe</a></p>
 
-        Particle.prototype.run = function () {
-            this.update();
-            this.display();
-        };
+    <hr />
 
-        // Method to update position
-        Particle.prototype.update = function () {
-            this.velocity.add(this.acceleration);
-            this.position.add(this.velocity);
-            this.lifespan -= 2;
-        };
+    <center>
+        <img src="/img/science.gif">
+        <!-- <img src="/img/community.gif"> -->
+        <!-- <img src="/img/wabwalk.gif"> -->
+        <!-- <img src="/img/webtrips.gif"> -->
+    </center>
 
-        // Method to display
-        Particle.prototype.display = function () {
-            stroke(200, this.lifespan);
-            strokeWeight(2);
-            fill(127, this.lifespan);
-            ellipse(this.position.x, this.position.y, 12, 12);
-        };
 
-        // Is the particle still useful?
-        Particle.prototype.isDead = function () {
-            return this.lifespan < 0;
-        };
 
-        let ParticleSystem = function (position) {
-            this.origin = position.copy();
-            this.particles = [];
-        };
 
-        ParticleSystem.prototype.addParticle = function () {
-            this.particles.push(new Particle(this.origin));
-        };
 
-        ParticleSystem.prototype.run = function () {
-            for (let i = this.particles.length - 1; i >= 0; i--) {
-                let p = this.particles[i];
-                p.run();
-                if (p.isDead()) {
-                    this.particles.splice(i, 1);
-                }
-            }
-        };
-
-    </script>
-
+    <hr>
+    <address>
+        <!-- hhmts start -->Last modified: Sat Jan 25 19:40:10 UTC 2020
+        <!-- hhmts end &mdash; <a href="https://tedium.co/what-is-tedium/">Tedium</a></address> -->
 </body>
 
 </html>

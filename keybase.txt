@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/carlozfilipe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://carlozfilipe.github.io
+  * I am carlozfilipe (https://keybase.io/carlozfilipe) on keybase.
+  * I have a public key with fingerprint 9553 CFCE 99E6 66F1 0B84  9765 AB8E 0C74 AAFA 9A39
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dd2e350a3f91ebfca06f5e003e82580dfa8aaeaf7ab78812d40e10be0d3d389b0a",
+      "fingerprint": "9553cfce99e666f10b849765ab8e0c74aafa9a39",
+      "host": "keybase.io",
+      "key_id": "ab8e0c74aafa9a39",
+      "kid": "0101d877cf2a8b75e6ae8dbb0c2dd0596bb9a7688ead02e9d82012524ed2a035cf090a",
+      "uid": "c45e1c48c1b23b373d2220e793b9e419",
+      "username": "carlozfilipe"
+    },
+    "service": {
+      "hostname": "carlozfilipe.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1582834745,
+  "expire_in": 157680000,
+  "prev": "5d21aa7a101c7ea6efce22dc0a0b2e7f83cd98c48538428228a4760c8e24ca47",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNuAnicbVJ7UFRVHN7VACGJcOg10ogXiLRtPXvu61zGjBm0ABNfBPhiO/fec9kL
+2+5y9+7GQ3SmRkbDRMlCdCYpQBEiYQaTJodAaACVIHs40WNEh0ojYgzG0TG2u5T/
+ef45r+/7ft/3O6cvcr4pwtxyYKHefPeoYL7Yc8JnystNEMoo0S2XUMllVCGZm4hT
+Jl7dXqjKVDIFbBDIMiQ0CzCtCDYiKhIGnMISAGiCIIuArGCEMcEKj0UeIRuUGUBs
+QCRApmUaCSLAlIVSVFc+0Tya6tINWYFlaUmRiCAQjuMUA40YgedYLCICJJ7BWMEC
+pgWD6HB7gwzDnIi9xKq6jTNjY5+z9wD8fd/AJiOelxSIkcizhMMEyaIIJCjLgBU4
+URQwzyFEsAwgEWQEjagsZIgMMaBZSQHCnG/fnJzEsMQmMUiyiZAWaZ6WIYSA8AIt
+CoSxBev6vERz4ddJEI01p7tUUZ2qh1DlFsq48asSCTY3mOYBKGu+qjt84n/pPJpb
+d0tup4Fx6LrHmxzU0Es8QdIbRLT/L2cXVZdsdNVg+InmVd0uKtlmICVdDerbWAQR
+zfAMa6FIsUfViF0NIlgjNTBGsA7xG5KsDG0Y89jomMQTzBHjXSCUJYCBCAmvIFqS
+BWSEZ2nEQAQhwgzPAQkRyEjGkgoGLHK5qWQIDZ8439D0qvkurPs0I/75nu0PmcwR
+ptCQecHvZooIf/T+J5wtjwqkhJ5p1D9vgcr6r2a6p8cSBmcH26J/7Zseg/7Ex7YV
+fJdGHZoIHU7f4e+ozhuwv7poa+aBks6DN7ScwJKuo09pbPf6uMebeNe45cOZNSEX
+ap4/+2zKuxWxWp35jlRzZ9uLq9cuT45IbA9ol69WXZJI5trIjPIvx7/urLbIV+F4
+FIgOnYzrc/RL8U2Hi9uH/w7Aoqy8ui9Wpe29lVt2qr3jveyi8b1/zLzf9m3+wM5d
+Nwv7X2hNKY5J38pyL3WNNtyeVJIybSuFT5IyvrFWnT8CNu6e11c2VJ+6rHVNMX1u
+qn6k5XjTTPo/dSXhw1VhZwLM2cry2tPWxCe6S3qmN080J3701oh1nfvShql3tlc1
++Gs/25M02fvc/OqNDdzEwAdLY0Yrf0lIG7KOvuL6rcTc3AyvLV8qxsZ1cFverEy9
+vMCp/dWxf0ng+3BvyCOLt6CKVtmc2ZqTkbpqdhEfOTaSOhX6Y21s/I7fG3IXR+Vk
+LTw0tSfmsGlf77Vjg/euHzdlV0drF/oD8YPh133O1oJTIa9dOdK30jcSNj3yjH/D
+sdWl5xpdN/xFP+zaFKKXDhHhp8LbFbHU7p//DLws1ex0fLr5ya6PAwWVB2edT7dM
+CI2Dt/Kyr2xa8LDPcsJ+ctm6TOzp7cwKO32yXw8rvYmsFeV7Hc019Q2eYTS9Ip8a
+u3sx7R69v23F2+P/Aom3yYM=
+=2gne
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/carlozfilipe
+
+==================================================================
+

@@ -855,8 +855,10 @@ button,
   opacity: 0.5;
   position: relative; }
   #footer .icons {
+    text-align: center;
     margin: 0 0 0.5em 0; }
   #footer .copyright {
+    text-align: center;
     font-size: 0.8em;
     list-style: none;
     padding: 0; }

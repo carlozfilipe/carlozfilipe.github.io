@@ -30,7 +30,7 @@ a {
   position: relative;
 }
 
-a:after {
+.links:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -52,6 +52,12 @@ a:hover:after {
   line-height: 1.2;
   max-width: 28em;
 }
+
+section div {
+  display: inline;
+  margin-right: 50px;
+}
+
 
 .icons li {
   display: inline;

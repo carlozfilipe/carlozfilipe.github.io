@@ -58,6 +58,9 @@ section div {
   margin-right: 50px;
 }
 
+section div a img {
+  border-radius: 20px;
+}
 
 .icons li {
   display: inline;

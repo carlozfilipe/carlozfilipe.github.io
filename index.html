@@ -9,76 +9,43 @@
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet" />
-   <style>
-      body {
-         font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-            Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-            sans-serif;
-         font-size: calc(10px + 0.33vw);
-         -webkit-font-smoothing: antialiased;
-         padding: 0vh 20vw;
-         color: #121314;
-      }
-
-      h1 {
-         font-size: 4.5em;
-         font-weight: 500;
-         margin-bottom: 0;
-      }
-
-      p {
-         font-size: 1.6em;
-         font-weight: 300;
-         line-height: 1.4;
-         max-width: 28em;
-      }
-
-      a {
-         text-decoration: none;
-         color: #121314;
-         position: relative;
-      }
-
-      a:after {
-         content: '';
-         position: absolute;
-         z-index: -1;
-         top: 70%;
-         left: -0.1em;
-         right: -0.1em;
-         bottom: 0;
-         transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-         background-color: #A050BE;
-      }
-
-      a:hover:after {
-         top: 0%;
-      }
-
-      ul li {
-         display: inline;
-         margin-right: 40px;
-      }
-   </style>
+   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <h1>Olá! &#x1F44B;</h1>
-   <p style="font-weight: 500; font-size: 2.2em">Me chamo Carlos Filipe.</p>
-   <p>Sou bacharelando em Ciência e Tecnologia pela UFMA e estudante de Desenvolvimento Web pela Trybe. Sou um aficionado por Programação, em especial, Desenvolvimento Web e Mobile. Gosto de aprender coisas novas, conhecer novas pessoas e ajudar sempre que possível, pois acredito que a melhor forma de aprender qualquer assunto é interagindo e trocando conhecimento com outras pessoas.</p>
+   <main>
+      <img class="photo" src="https://github.com/carlozfilipe.png" alt="Imagem de Carlos Filipe" width="200px">
+      <h1>Olá! &#x1F44B;</h1>
+      <p style="font-weight: 500; font-size: 1.8em">Me chamo Carlos Filipe.</p>
+      <p>Sou bacharelando em Ciência e Tecnologia pela UFMA e estudante de Desenvolvimento Web pela Trybe. Sou um aficionado por Programação, em especial, Desenvolvimento Web e Mobile. Gosto de aprender coisas novas, conhecer novas pessoas e ajudar sempre que possível, pois acredito que a melhor forma de aprender qualquer assunto é interagindo e trocando conhecimento com outras pessoas.</p>
 
-   <p><strong>Stacks:</strong> Javascript (ES6, ES7 and ES8), TypeScript, ReactJS, React Native e REST
-      API.</p>
-   <p><strong>Meus Projetos:</strong> <a href="https://github.com/carlozfilipe" target="_blank">GitHub profile.</a></p>
+      <p>Tecnologias que estou estudando atualmente:</p>
+      <ul class="tech">
+         <li>HTML 5</li>
+         <li>CSS 3</li>
+         <li>JavaScript (ES6)</li>
+         <li>ReactJS</li>
+      </ul>
 
-   <p><strong>Games:</strong> <a href="balloon-game.html">Balloon Game</a></p>
+      <p><strong>Meus Projetos:</strong> <a href="https://github.com/carlozfilipe" target="_blank">GitHub profile.</a></p>
 
+      <p><strong>Games:</strong> <a href="balloon-game.html">Balloon Game</a></p>
+   </main>
+   
    <footer>
       <ul class="icons">
-         <li><a href="https://twitter.com/carlozfilipe" class="icon brands fa-twitter" target="_blank"><span
-                  class="label">Twitter</span></a></li>
-         <li><a href="mailto:thecarlosfilipe@gmail.com" class="icon fa-envelope" target="_blank"><span
-                  class="label">Email</span></a></li>
+         <li>
+            <a href="https://twitter.com/carlozfilipe" class="icon brands fa-twitter" target="_blank"><span
+                  class="label">Twitter</span></a>
+         </li>
+         <li>
+            <a href="mailto:thecarlosfilipe@gmail.com" class="icon fa-envelope" target="_blank"><span
+                  class="label">Email</span></a>
+         </li>
+         <li>
+            <a href="https://www.linkedin.com/in/carlozfilipe/" class="icon brands fa-linkedin" target="_blank"><span
+                  class="label">LinkedIn</span></a>
+         </li>
       </ul>
    </footer>
 </body>

@@ -5,61 +5,76 @@
    <meta charset="utf-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <title>Carlos Filipe</title>
-   <link rel="icon" href="img/icon-atom-symbol.png">
+   <link rel="icon" href="img/favicon.ico">
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet" />
    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
-   <main>
-      <img class="photo" src="https://github.com/carlozfilipe.png" alt="Imagem de Carlos Filipe" width="200px">
-      <h1>Olá! &#x1F44B;</h1>
-      <p style="font-weight: 500; font-size: 1.8em">Me chamo Carlos Filipe.</p>
-      <p>Sou bacharelando em Ciência e Tecnologia pela UFMA e estudante de Desenvolvimento Web pela Trybe. Sou um aficionado por Programação, em especial, Desenvolvimento Web e Mobile. Gosto de aprender coisas novas, conhecer novas pessoas e ajudar sempre que possível, pois acredito que a melhor forma de aprender qualquer assunto é interagindo e trocando conhecimento com outras pessoas.</p>
+   <header class="header">
 
-      <p>Tecnologias que estou estudando atualmente:</p>
-      <ul class="tech">
-         <li>HTML 5</li>
-         <li>CSS 3</li>
-         <li>JavaScript (ES6)</li>
-         <li>ReactJS</li>
-      </ul>
+      <nav class="nav-bar">
+         <a href="index.html">Home</a>
+         <a href="#projects">Portfólio</a>
+         <a href="#about">Sobre</a>
+         <a href="#contact">Contato</a>
+      </nav>
 
-      <p>Blogs que eu gosto de ler e acompanhar:</p>
+   </header>
 
-      <section>
-         <div>
-            <a href="https://news.ycombinator.com/" target="_blank"><img src="img/hacker-news.png" alt="Hacker News" width="100px"></a>
+   <main class="content">
+      <div class="box">
+         <img class="perfil-photo" src="https://github.com/carlozfilipe.png" alt="Imagem de Carlos Filipe">
+      </div>
+      <section id="about">
+         <p>Me chamo Carlos Filipe. Sou bacharelando em Ciência e Tecnologia pela UFMA e estudante de Desenvolvimento Web
+            pela Trybe. Sou um aficionado por Programação, em especial, Desenvolvimento Web e Mobile. Gosto de aprender
+            coisas novas, conhecer novas pessoas e ajudar sempre que possível, pois acredito que a melhor forma de aprender
+            qualquer assunto é interagindo e trocando conhecimento com outras pessoas.
+         </p>
+         <div class="tech">
+            <h3>Tecnologias que estou estudando atualmente:</h3>
+            <ul>
+               <li>HTML 5</li>
+               <li>CSS 3</li>
+               <li>JavaScript</li>
+               <li>ReactJS</li>
+            </ul>
          </div>
-         <div>
-            <a href="https://dev.to/" target="_blank"><img src="img/devto.jpg" alt="Devto" width="100px"></a>
+   
+         <div class="blogs">
+            <h3 id="projects">Meus projetos:</h3>
+            <ul class="list-links">
+               <li>🚀 Meus Projetos: </strong><a class="links" href="https://github.com/carlozfilipe" target="_blank">GitHub</a></li>
+               <li>🎮 Games: </strong><a class="links" href="balloon-game.html">Balloon Game</a></li>
+            </ul>
          </div>
-         
       </section>
 
-      <p><strong>Meus Projetos:</strong> <a class="links" href="https://github.com/carlozfilipe" target="_blank">GitHub profile.</a></p>
-
-      <p><strong>Games:</strong> <a class="links" href="balloon-game.html">Balloon Game</a></p>
+      <footer>
+         <h3 id="contact">Redes Sociais 🔗:</h3>
+         <ul class="icons">
+            <li>
+               <a class="fa fa-twitter" href="https://twitter.com/carlozfilipe" target="_blank"></a>
+            </li>
+            <li>
+               <a class="fa fa-google" href="mailto:thecarlosfilipe@gmail.com" target="_blank"></a>
+            </li>
+            <li>
+               <a class="fa fa-linkedin" href="https://www.linkedin.com/in/carlozfilipe/" target="_blank"></a>
+            </li>
+         </ul>
+      </footer>
    </main>
-   
-   <footer>
-      <ul class="icons">
-         <li>
-            <a class="links" href="https://twitter.com/carlozfilipe" class="icon brands fa-twitter" target="_blank"><span
-                  class="label">Twitter</span></a>
-         </li>
-         <li>
-            <a class="links" href="mailto:thecarlosfilipe@gmail.com" class="icon fa-envelope" target="_blank"><span
-                  class="label">Email</span></a>
-         </li>
-         <li>
-            <a class="links" href="https://www.linkedin.com/in/carlozfilipe/" class="icon brands fa-linkedin" target="_blank"><span
-                  class="label">LinkedIn</span></a>
-         </li>
-      </ul>
-   </footer>
 </body>
 
 </html>

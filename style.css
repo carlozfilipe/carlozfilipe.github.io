@@ -5,16 +5,18 @@
 }
 
 body {
-  font-family: 'Aldrich', 'Press Start 2P', cursive;
+  font-family: "JetBrains Mono", "Press Start 2P", cursive;
   background-color: rgb(15, 27, 53);
   color: white;
 }
 
 .header {
+  position: fixed;
   background-color: rgb(13, 24, 42);
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
+  width: 100%;
 }
 
 .nav-bar {
@@ -32,16 +34,16 @@ body {
 
 .nav-bar a:hover {
   text-decoration: line-through;
-  font-family: 'Nosifer';
-  color: #FFE400;
+  font-family: "Nosifer";
+  color: #ffe400;
 }
 
 .content {
   margin-left: 25%;
   margin-right: 25%;
-  line-height: 2em;
+  line-height: 1.5em;
   max-width: 768;
-  font-size: 1.5em;
+  font-size: 1.2em;
   justify-content: center;
 }
 
@@ -52,13 +54,18 @@ body {
 .perfil-photo {
   border-radius: 50%;
   width: 200px;
-  margin: 50px 0;
-  
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 .tech {
   margin: 50px 0;
-  font-size: 0.9em;
+}
+
+#learning,
+#projects,
+#contact {
+  margin-bottom: 20px;
 }
 
 .list-links {
@@ -72,13 +79,17 @@ footer {
 
 footer ul li {
   display: inline-block;
-  margin: 10px 30px;
+  margin: 10px 20px;
+}
+
+.links {
+  color: #ff9600;
 }
 
 .links:hover {
   text-decoration: line-through;
-  font-family: 'Nosifer';
-  color: #FFE400;
+  font-family: "Nosifer";
+  color: #ffe400;
 }
 
 .fa {
@@ -88,16 +99,16 @@ footer ul li {
   text-align: center;
   text-decoration: none;
   margin: auto;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 .fa:hover {
-    opacity: 1;
-    font-size: 30px;
+  opacity: 1;
+  font-size: 30px;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 

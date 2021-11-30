@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   background-color: rgb(15, 27, 53);
   color: white;
 }
@@ -76,7 +76,7 @@ footer {
 }
 
 footer ul li {
-  display: inline-block;
+  display: inline;
   margin: 10px 20px;
 }
 
@@ -86,7 +86,6 @@ footer ul li {
 
 .links:hover {
   text-decoration: line-through;
-  font-family: "Nosifer";
   color: #ffe400;
 }
 

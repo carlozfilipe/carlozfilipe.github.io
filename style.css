@@ -71,6 +71,14 @@ body {
   font-size: 0.9em;
 }
 
+#reactjs { 
+  padding: 8px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border-style: none;
+}
+
 footer {
   margin: 50px 0;
 }

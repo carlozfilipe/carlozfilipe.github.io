@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
   background-color: rgb(15, 27, 53);
   color: white;
 }

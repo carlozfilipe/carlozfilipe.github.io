@@ -1,1 +1,1 @@
-## My personal website
+## GitHub Pages

@@ -5,6 +5,8 @@
 }
 
 body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -52,8 +54,18 @@ main {
   border-color: #0070f3;
 }
 .card p {
-  font-family: "Nunito";
   margin: 0;
   font-size: 2rem;
   line-height: 1.5;
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }

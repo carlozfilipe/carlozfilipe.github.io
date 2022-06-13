@@ -25,11 +25,13 @@ const answerElement = document.querySelector("#answer");
 const inputQuestion = document.querySelector("#inputQuestion");
 const buttonAskQuestion = document.querySelector("#askQuestion");
 
-buttonAskQuestion.addEventListener("click", (event) => {
+buttonAskQuestion.addEventListener("click", () => {
   if (inputQuestion.value === "") {
     alert("⚠️ Digite uma pergunta! Não deixe o campo vazio! ⚠️");
     return;
   }
+
+  buttonAskQuestion.setAttribute("disabled", true);
 
   const answer = "<div>" + inputQuestion.value + "</div>";
 
@@ -41,4 +43,9 @@ buttonAskQuestion.addEventListener("click", (event) => {
   } else {
     alert("Coloque a interrogação ao final da pergunta, por gentileza! 🫶");
   }
+
+  setTimeout(() => {
+    answerElement.style.opacity = 0;
+    buttonAskQuestion.removeAttribute("disabled");
+  }, 3000);
 });

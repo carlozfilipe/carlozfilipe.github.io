@@ -4,10 +4,10 @@
 }
 
 body {
-  background-color: #1D262F;
+  background-color: #1d262f;
   color: white;
   text-align: center;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-weight: 700;
 }
 
@@ -19,11 +19,11 @@ body {
 }
 
 h1 {
-  color:#F10A73;
+  color: #f10a73;
   font-size: 2.5rem;
 }
 
-h2 { 
+h2 {
   font-size: 2rem;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -41,7 +41,8 @@ img {
   width: 200px;
 }
 
-input, button {
+input,
+button {
   display: block;
   width: 100%;
   padding: 20px;
@@ -62,11 +63,12 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color:#F10A73;
+  background-color: #f10a73;
 }
 
 #answer {
-  margin-top: 30px;
+  margin: 50px 0;
+  transition: opacity 1s;
 }
 
 #answer div {

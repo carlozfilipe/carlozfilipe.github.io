@@ -64,3 +64,14 @@ button:hover {
   cursor: pointer;
   background-color:#F10A73;
 }
+
+#answer {
+  margin-top: 30px;
+}
+
+#answer div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}

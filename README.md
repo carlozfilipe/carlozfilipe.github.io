@@ -1,1 +1,0 @@
-# Todos os meus projetos em Vanilla JS

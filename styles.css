@@ -1,5 +1,6 @@
 :root {
   --color-green: #50fa7b;
+  --color-purple: #7159c1;
 }
 
 * {
@@ -86,17 +87,33 @@ header div {
 .cards {
   max-width: 800px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .card {
-  background-color: #7159c1;
+  background-color: var(--color-purple);
 }
 
-.card__image-container img {
+.card-image-container img {
   width: 100%;
 }
 
-.card__content,
-.card__info {
+.card-content,
+.card-info {
   padding: 24px;
+}
+
+.card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-price {
+  background-color: var(--color-purple);
+  filter: brightness(90%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
 }

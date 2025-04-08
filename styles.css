@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 :root {
   --color-green: #50fa7b;
   --color-purple: #7159c1;
@@ -11,7 +13,7 @@
 
 body {
   background: #282a36;
-  font-family: "Montserrat", serif;
+  font-family: "Rubik", sans-serif;
   color: #fff;
 }
 
@@ -150,7 +152,6 @@ header div {
   opacity: 1;
   visibility: visible;
 }
-
 
 iframe {
   width: 100%;

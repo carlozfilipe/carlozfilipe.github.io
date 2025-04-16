@@ -11,15 +11,11 @@ nunjucks.configure("views", {
 })
 
 server.get("/", (req, res) => {
-  return res.render("index");
+  return res.render("about");
 })
 
 server.get("/classes", (req, res) => {
   return res.render("classes");
-})
-
-server.get("/about", (req, res) => {
-  return res.render("about");
 })
 
 server.listen(5000, () => {

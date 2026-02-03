@@ -25,16 +25,17 @@
 }
 
 body * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
 
 body {
   background-image: var(--bg-url);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center center;
   background-size: cover;
-  /* height: 100vh; */
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 #container {
@@ -180,11 +181,17 @@ footer {
   }
 }
 
+@media (min-width: 1308px) {
+  body {
+    background-position: center center;
+  }
+}
+
 /*********** ANIMATION **********/
 @keyframes slide-in {
   from {
     left: 0;
-  } 
+  }
   to {
     left: 50%;
   }
@@ -193,7 +200,7 @@ footer {
 @keyframes slide-back {
   from {
     left: 50%;
-  } 
+  }
   to {
     left: 0;
   }
